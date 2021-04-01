@@ -5,9 +5,11 @@ const App = () => {
   return (
   <div className="App">
     <Resume />
-    <div>
-      testing
-    </div>
+    {/*
+    paragraph about me
+    image carousel
+    contact form pop out?
+    */}
   </div>);
 }
 
