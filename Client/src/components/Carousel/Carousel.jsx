@@ -9,7 +9,20 @@ class Carousel extends React.Component {
     super(props);
     this.state = {
       products: [],
-      images: [],
+      images: [
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
+        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"}
+      ],
       selectedImageIndex: 0,
     };
     this.getImages = this.getImages.bind(this);
@@ -38,14 +51,14 @@ class Carousel extends React.Component {
   }
 
   getImages(query = this.state.products[0].product_id) {
-    $.ajax({
-      method: 'POST',
-      data: JSON.stringify(query),
-      url: '/api/lego/products/images',
-      success: (imagesData) => {
-        this.setState({ images: imagesData });
-      },
-    });
+    // $.ajax({
+    //   method: 'POST',
+    //   data: JSON.stringify(query),
+    //   url: '/api/lego/products/images',
+    //   success: (imagesData) => {
+    //     this.setState({ images: imagesData });
+    //   },
+    // });
   }
 
   setSelectedImageIndex(index) {
@@ -76,7 +89,7 @@ class Carousel extends React.Component {
         </div>
       );
     } else {
-      return 'loading...';
+      return 'loading... the images';
     }
   }
 }
