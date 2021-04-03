@@ -5,9 +5,8 @@ const Resume = () => {
   return (
     <div className="resumeFrame">
       <iframe
-        src="/Users/sambrandon/Documents/Personal Website/Portfolio/SamBrandonResume.pdf"
+        src="https://resumesambrandon.s3-us-west-1.amazonaws.com/SamBrandonResume.pdf"
         className="resume"
-        width="auto" height="200000000rem"
         />
     </div>
   )
