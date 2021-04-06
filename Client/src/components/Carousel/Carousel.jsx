@@ -86,6 +86,7 @@ class Carousel extends React.Component {
             selectedImageIndex={selectedImageIndex}
           />
           <MainImage main={images[selectedImageIndex].product_image} carouselLeft={this.carouselLeft} carouselRight={this.carouselRight} zoom={zoom} />
+
         </div>
       );
     } else {

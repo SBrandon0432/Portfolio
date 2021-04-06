@@ -4,9 +4,16 @@
 
   .title{
     align-self: center;
+    font-size: 45px;
+    font-family: fantasy;
   }
   .about{
     align-self: center;
+    font-family: fantasy;
+  }
+  .aboutInApp{
+    flex-direction: row;
+    padding: 2rem 10rem 2rem 12rem;
   }
 
 }
