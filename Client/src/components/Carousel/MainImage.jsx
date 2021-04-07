@@ -33,7 +33,7 @@ class MainImage extends React.Component {
     let test = null;
 
     if (zoom === false) {
-      test = <img src={main} alt="product" />;
+      test = <img src={main} alt="product" className="image"/>;
     } else {
       test = <Zoom img={main} zoomScale={3} width={750} height={600} />;
     }

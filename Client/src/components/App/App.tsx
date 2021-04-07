@@ -12,6 +12,8 @@ const App = () => {
         <div className="App">
 
           <h1 className="title" >Samuel's Portfolio</h1>
+          {/* <button className="popOpenMenu">Menu</button> */}
+
 
           <div className="resumeDivInApp">
             <Resume />

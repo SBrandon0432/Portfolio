@@ -8,20 +8,20 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      products: [],
+      products: ['me'],
       images: [
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"},
-        {product_id: 0, product_image:"/Users/sambrandon/Documents/Personal Website/Portfolio/images/1800x1200_cat_relaxing_on_patio_other.jpeg"}
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"},
+        {product_id: 0, product_image:"https://personalwebappaboutpictures.s3-us-west-1.amazonaws.com/2335E0F3-82E0-4323-9A3A-D0F683766225.jpeg"}
       ],
       selectedImageIndex: 0,
     };

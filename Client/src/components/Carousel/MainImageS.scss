@@ -2,11 +2,16 @@
   background: white;
   padding: 2%;
   border: 10px solid #f9f9f9;
+  width: 40%;
+  text-align: center;
 
   .MainImage {
     display: flex;
+    justify-self: center;
     height: 8rem;
     width: auto;
+
+
 
     .MainImageZoom {
       height: 8rem;
@@ -18,7 +23,6 @@
       object-fit: contain;
       padding: .1rem;
       vertical-align: middle;
-      justify-content: center;
       height: auto;
       width: 41%;
     }
@@ -29,6 +33,7 @@
       border-radius: 50%;
       opacity: 60%;
       cursor: pointer;
+
       .button {
         background-color: gray;
         border-radius: 50%;
@@ -49,6 +54,7 @@
       border-radius: 50%;
       opacity: 60%;
       cursor: pointer;
+
       .button {
         background-color: gray;
         border-radius: 50%;
